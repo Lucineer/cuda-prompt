@@ -2,7 +2,7 @@
 name = "cuda-prompt"
 version = "0.1.0"
 edition = "2021"
-description = "Template rendering, CoT scaffolding, version scoring, compression"
+description = "Template rendering and CoT scaffolding"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-prompt"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
